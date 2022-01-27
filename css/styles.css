@@ -70,8 +70,8 @@ section{
     position: fixed;
     top: 0; left: 0; right: 0;
 }
-.cabecalho .logo img{
-    width: 15rem;
+.cabecalho .imagem img{
+    width: 10rem;
 }
 .cabecalho .nav-bar a{
     margin: 0 1rem;
