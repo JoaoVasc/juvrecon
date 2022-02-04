@@ -189,6 +189,32 @@ section{
     padding: 1rem 0;
     font-weight: normal;
 }
+.cordenadores .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.cordenadores .box-container .box{
+    padding: 3rem;
+    text-align: center;
+    border: var(--border);
+}
+.cordenadores .box-container .box img{
+    height: 20rem;
+    border-radius: 20rem;
+}
+.cordenadores .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.cordenadores .box-container .box:hover{
+    background: rgb(34, 34, 34);
+}
+.cordenadores .box-container .box:hover > *{
+    color: var(--bg);
+}
 
 
 
