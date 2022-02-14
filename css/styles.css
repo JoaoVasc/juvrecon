@@ -123,6 +123,7 @@ section{
     align-items: center;
     background: var(--black);
     flex-wrap: wrap;
+    border: solid .1rem var(--main-color);
 }
 .sobre .linha .imagem{
     flex: 1 1 45rem;
